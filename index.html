@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>CODE-JAM2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+  <script src="js/script.js"></script>
+</head>
+
+<body onload="initialization()">
+  <header>
+    <h1>CAPS WITH BUTTER CREAM</h1>
+    <div class="notification clearfix">
+      <button class="close" onclick="notificationClose()">×</button>
+      <div class="helpful_inf"></div>
+      <div class="off_tips">
+        <input type="checkbox" id="disableTips" name="disable" value="disableTips" onclick="offTips()">
+        <label for="disableTips">Disable Tips</label>
+      </div>
+      <div class="switch_notificstion">
+        <div class="prev_notification" onclick="getPrevNotification()">
+          <i class="fas fa-arrow-alt-circle-left"></i>Prev</div>
+        <div class="next_notification" onclick="getNextNotification()">Next
+          <i class="fas fa-arrow-alt-circle-right"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div>
+        <h2>PREPARATION INSTRUCTIONS</h2>
+        <p>1. Preheat the oven to 180 degrees. Lubricate the form with oil and sprinkle with flour.</p>
+        <p>2. Mix cocoa with water until a paste is formed. Set aside. In a medium bowl, grind sugar and butter together. Add
+          the eggs, one at a time, then add the vanilla. Mix flour with baking powder, add to the oil mixture and mix well.
+          Gradually pour the milk, stirring constantly, until the mixture becomes homogeneous.</p>
+        <p>3. Put half the dough into a second bowl. Add cocoa and mix well. Fill the mold with 3/4.</p>
+        <p>4. Bake the cake for 20-25 minutes. After the capkaki completely cool, cover them with your favorite cream.</p>
+      </div>
+      <div>
+        <h2>ADVICE TO RECIPE</h2>
+        <p>The cream recipe (I want to warn you that it turns out to be fat enough). Ingredients: 150 g of sugar; 6 tablespoons
+          of water; 1 packet of vanilla extract; 3 yolks; 220 g of butter (soften to room temperature). Cooking method. In
+          a small saucepan, mix the sugar with water, put on fire and cook for a few minutes to make a syrup. Check the syrup
+          for readiness: the syrup should be stretched with a thin thread. Beat the yolks in a lush, light mass, gradually
+          add the syrup, whisk until the mass becomes lush. Beat the mixer with oil in a lush mass, add yolk mass, beat well.
+          It turns out a gentle cream cream.</p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
